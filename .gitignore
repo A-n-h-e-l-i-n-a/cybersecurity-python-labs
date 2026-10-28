@@ -1,0 +1,20 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+build/
+dist/
+
+# Віртуальне середовище
+.venv/
+venv/
+env/
+
+# Кеш Ruff та IDE
+.ruff_cache/
+.vscode/
+.idea/
+
+# Чутливі дані ЛР1 (хеші паролів і журнал входів)
+labs/lab01/data/users.csv
+labs/lab01/data/log.json
